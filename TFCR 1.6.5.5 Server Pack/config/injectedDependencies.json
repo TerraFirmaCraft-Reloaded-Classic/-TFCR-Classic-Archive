@@ -1,0 +1,351 @@
+[
+  {
+    "modId": "TFC-Tweaks",
+    "deps": [
+      {
+        "type": "after",
+        "target": "terrafirmacraft"
+      },
+      {
+        "type": "before",
+        "target": "CarpentersBlocks"
+      },
+      {
+        "type": "before",
+        "target": "tfcadditions"
+      },
+      {
+        "type": "before",
+        "target": "DecorationsTFC"
+      },
+      {
+        "type": "before",
+        "target": "lwstfc"
+      },
+      {
+        "type": "before",
+        "target": "MerchantsTFC"
+      },
+      {
+        "type": "before",
+        "target": "MerchantsContainersTFC"
+      },
+      {
+        "type": "before",
+        "target": "terrafirmastuff"
+      },
+      {
+        "type": "before",
+        "target": "tfcm"
+      },
+      {
+        "type": "before",
+        "target": "Waila"
+      },
+      {
+        "type": "before",
+        "target": "tfcmetals"
+      },
+      {
+        "type": "before",
+        "target": "tfcpewter"
+      },
+      {
+        "type": "before",
+        "target": "tfcwells"
+      },
+      {
+        "type": "before",
+        "target": "tfcautomatedbellows"
+      },
+      {
+        "type": "before",
+        "target": "tfccellars"
+      },
+      {
+        "type": "before",
+        "target": "tfcprimitivetech"
+      },
+      {
+        "type": "before",
+        "target": "weightingscales"
+      },
+      {
+        "type": "before",
+        "target": "CoFHCore"
+      },
+      {
+        "type": "before",
+        "target": "BuildCraft|Core"
+      },
+      {
+        "type": "before",
+        "target": "BuildCraft|Transport"
+      },
+      {
+        "type": "before",
+        "target": "BuildCraft|Factory"
+      },
+      {
+        "type": "before",
+        "target": "BuildCraft|Silicon"
+      },
+      {
+        "type": "before",
+        "target": "BuildCraft|Robotics"
+      },
+      {
+        "type": "before",
+        "target": "BuildCraft|Energy"
+      },
+      {
+        "type": "before",
+        "target": "BuildCraft|Builders"
+      },
+      {
+        "type": "before",
+        "target": "Baubles"
+      },
+      {
+        "type": "before",
+        "target": "ThermalFoundation"
+      },
+      {
+        "type": "before",
+        "target": "ImmersiveEngineering"
+      },
+      {
+        "type": "before",
+        "target": "tfctech"
+      },
+      {
+        "type": "before",
+        "target": "AgriCraft"
+      },
+      {
+        "type": "before",
+        "target": "animalcrate"
+      },
+      {
+        "type": "before",
+        "target": "armourersWorkshop"
+      },
+      {
+        "type": "before",
+        "target": "betterloadingscreen"
+      },
+      {
+        "type": "before",
+        "target": "betterplacement"
+      },
+      {
+        "type": "before",
+        "target": "Thaumcraft"
+      },
+      {
+        "type": "before",
+        "target": "betterstorage"
+      },
+      {
+        "type": "before",
+        "target": "ThermalExpansion"
+      },
+      {
+        "type": "before",
+        "target": "BigReactors"
+      },
+      {
+        "type": "before",
+        "target": "cookingwithtfc"
+      },
+      {
+        "type": "before",
+        "target": "creativecore"
+      },
+      {
+        "type": "before",
+        "target": "customitems"
+      },
+      {
+        "type": "before",
+        "target": "CustomMainMenu"
+      },
+      {
+        "type": "before",
+        "target": "customnpcs"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights"
+      },
+      {
+        "type": "before",
+        "target": "dsurround"
+      },
+      {
+        "type": "before",
+        "target": "eplus"
+      },
+      {
+        "type": "before",
+        "target": "EnderStorage"
+      },
+      {
+        "type": "before",
+        "target": "exnihilo"
+      },
+      {
+        "type": "before",
+        "target": "Mantle"
+      },
+      {
+        "type": "before",
+        "target": "TConstruct"
+      },
+      {
+        "type": "before",
+        "target": "ExtraTiC"
+      },
+      {
+        "type": "before",
+        "target": "farseek"
+      },
+      {
+        "type": "before",
+        "target": "MineTweaker3"
+      },
+      {
+        "type": "before",
+        "target": "FTBL"
+      },
+      {
+        "type": "before",
+        "target": "FTBU"
+      },
+      {
+        "type": "before",
+        "target": "fw"
+      },
+      {
+        "type": "before",
+        "target": "HardcoreDarkness"
+      },
+      {
+        "type": "before",
+        "target": "InventoryCenterer"
+      },
+      {
+        "type": "before",
+        "target": "inventorytweaks"
+      },
+      {
+        "type": "before",
+        "target": "journeymap"
+      },
+      {
+        "type": "before",
+        "target": "mdecore"
+      },
+      {
+        "type": "before",
+        "target": "MTRM"
+      },
+      {
+        "type": "before",
+        "target": "MobProperties"
+      },
+      {
+        "type": "before",
+        "target": "modtweaker2"
+      },
+      {
+        "type": "before",
+        "target": "MouseTweaks"
+      },
+      {
+        "type": "before",
+        "target": "Neat"
+      },
+      {
+        "type": "before",
+        "target": "notenoughIDs"
+      },
+      {
+        "type": "before",
+        "target": "OpenMods"
+      },
+      {
+        "type": "before",
+        "target": "OpenBlocks"
+      },
+      {
+        "type": "before",
+        "target": "psychedelicraft"
+      },
+      {
+        "type": "before",
+        "target": "reauth"
+      },
+      {
+        "type": "before",
+        "target": "ResourceLoader"
+      },
+      {
+        "type": "before",
+        "target": "RopesPlus"
+      },
+      {
+        "type": "before",
+        "target": "signpost"
+      },
+      {
+        "type": "before",
+        "target": "SmartMoving"
+      },
+      {
+        "type": "before",
+        "target": "SmartRender"
+      },
+      {
+        "type": "before",
+        "target": "soundfilters"
+      },
+      {
+        "type": "before",
+        "target": "streams"
+      },
+      {
+        "type": "before",
+        "target": "TerraFirmaCraftNEIplugin"
+      },
+      {
+        "type": "before",
+        "target": "ttfcapi"
+      },
+      {
+        "type": "before",
+        "target": "terrathaumcraft"
+      },
+      {
+        "type": "before",
+        "target": "TFCTweaker"
+      },
+      {
+        "type": "before",
+        "target": "thaumcraftneiplugin"
+      },
+      {
+        "type": "before",
+        "target": "ThermalDynamics"
+      },
+      {
+        "type": "before",
+        "target": "tradeboothmod"
+      },
+      {
+        "type": "before",
+        "target": "ttfcmat"
+      }
+    ]
+  }
+]

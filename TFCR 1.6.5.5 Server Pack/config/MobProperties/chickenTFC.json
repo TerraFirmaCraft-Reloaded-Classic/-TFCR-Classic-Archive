@@ -1,0 +1,12 @@
+{
+  "_name": "chickenTFC",
+  "drops": [
+            {
+				"function": "add",
+				"id": "customitems:black_feather",
+				"count": "0~4"
+			}
+	],
+  "pre_stats": [],
+  "stats": []
+}

@@ -1,0 +1,93 @@
+{
+    "crops":
+		[
+			{
+			"name": "Cotton",
+				"textureName":"cotton",
+				"fruitName": "customitems:cotton",
+				"renderType": "crop",
+				"dropFromGrassChance": 5,
+				"dropSeedWhenMature": true,
+				"acceptBoneMeal": true,
+				"minFruitDrop": 1,
+				"maxFruitDrop": 4,
+				"minSeedDrop": 1,
+				"maxSeedDrop": 3,
+				"eachExtraSeedDropChance": 50,
+				"eachExtraFruitDropChance": 15
+			},
+			{
+			"name": "Amaranth",
+				"textureName":"amaranth",
+				"fruitName": "customitems:amaranth",
+				"renderType": "crop",
+				"dropFromGrassChance": 5,
+				"dropSeedWhenMature": true,
+				"acceptBoneMeal": true,
+				"minFruitDrop": 1,
+				"maxFruitDrop": 4,
+				"minSeedDrop": 1,
+				"maxSeedDrop": 3,
+				"eachExtraSeedDropChance": 50,
+				"eachExtraFruitDropChance": 15
+			},
+			{
+			"name": "Flax",
+				"textureName":"flax",
+				"fruitName": "customitems:flax",
+				"renderType": "crop",
+				"dropFromGrassChance": 5,
+				"dropSeedWhenMature": true,
+				"acceptBoneMeal": true,
+				"minFruitDrop": 1,
+				"maxFruitDrop": 4,
+				"minSeedDrop": 1,
+				"maxSeedDrop": 3,
+				"eachExtraSeedDropChance": 50,
+				"eachExtraFruitDropChance": 15
+		}
+    ],
+    "items":
+    [
+        {
+            "name":"Cotton",
+            "textureName":"cottonItem",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Woven Cotton",
+            "textureName":"wovencottonItem",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Amaranth",
+            "textureName":"amaranthItem",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Flax",
+            "textureName":"flaxItem",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Flax Fibre",
+            "textureName":"flaxFibre",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Honey",
+            "textureName":"honeyItem",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Honey Comb",
+            "textureName":"honeycombItem",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Bees Wax",
+            "textureName":"beeswaxItem",
+            "creativeTab":"Miscellaneous Things"
+        }
+	]
+}

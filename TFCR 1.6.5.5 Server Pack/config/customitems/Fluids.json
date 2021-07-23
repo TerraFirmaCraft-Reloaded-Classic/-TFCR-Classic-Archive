@@ -1,0 +1,154 @@
+{  
+    "fluids":[  
+        {  
+            "name":"Molten Blue Steel",
+            "textureName":"molten_blue_steel",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Blue Steel Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Blue Steel"
+            }
+        },
+        {  
+            "name":"Molten Red Steel",
+            "textureName":"molten_red_Steel",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Red Steel Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Red Steel"
+            }
+        },
+        {  
+            "name":"Molten Black Steel",
+            "textureName":"molten_black_Steel",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Black Steel Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Black Steel"
+            }
+        },
+        {  
+            "name":"Molten Bismuth",
+            "textureName":"molten_bismuth",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Bismuth Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Bismuth"
+            }
+        },
+        {  
+            "name":"Molten Bismuth Bronze",
+            "textureName":"molten_bismuth_bronze",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Bismuth Bronze Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Bismuth Bronze"
+            }
+        },
+        {  
+            "name":"Molten Black Bronze",
+            "textureName":"molten_black_bronze",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Black Bronze Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Black Bronze"
+            }
+        },
+        {  
+            "name":"Molten Rose Gold",
+            "textureName":"molten_rose_gold",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Rose Gold Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Rose Gold"
+            }
+        },
+        {  
+            "name":"Molten Sterling Silver",
+            "textureName":"molten_sterling_Silver",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Sterling Silver Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Sterling Silver"
+            }
+        },
+        {  
+            "name":"Molten Zinc",
+            "textureName":"molten_zinc",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Zinc Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Zinc"
+            }
+        },
+        {  
+            "name":"Molten Constantan",
+            "textureName":"molten_constantan",
+            "creativeTab":"TFC Metals",
+            "flowLength":4,
+            "viscosity": 6000,
+            "lightLevel": 0.6,
+            "material":"lava",
+            "bucket":{  
+                "name":"Molten Constantan Bucket",
+				"creativeTab":"TFC Metals",
+                "maxStackSize":1,
+				"textureName": "Blue Steel Bucket Molten Constantan"
+            }
+        }
+    ]
+}

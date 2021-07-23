@@ -1,0 +1,174 @@
+<!--
+Entries in this file take precedence over the values in the core file
+-->
+
+<OreDictionaryPreferences>
+  <!-- Dusts -->
+  <preference oreDictionary="dustCoal" >
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="0" />
+  </preference>
+  <preference oreDictionary="dustAluminum" >
+    <itemStack modID="tfctech" itemName="item.Aluminum Dust" />
+  </preference>
+  <preference oreDictionary="dustBauxite" >
+    <itemStack modID="tfctech" itemName="item.Bauxite Dust" />
+  </preference>
+  <preference oreDictionary="dustConstantan" >
+    <itemStack modID="tfctech" itemName="item.Constantan Dust"/>
+  </preference>
+  <preference oreDictionary="dustGold" >
+    <itemStack modID="tfctech" itemName="item.Gold Dust" />
+  </preference>
+  <preference oreDictionary="dustElectrum" >
+    <itemStack modID="tfctech" itemName="item.Electrum Dust" />
+  </preference>
+  <preference oreDictionary="dustInvar" >
+    <itemStack modID="tfctech" itemName="item.Invar Dust" />
+  </preference>
+  <preference oreDictionary="dustBismuth" >
+    <itemStack modID="tfctech" itemName="item.Bismuth Dust" />
+  </preference>
+  <preference oreDictionary="dustBismuthBronze" >
+    <itemStack modID="tfctech" itemName="item.Bismuth Bronze Dust" />
+  </preference>
+  <preference oreDictionary="dustBlackBronze" >
+    <itemStack modID="tfctech" itemName="item.Black Bronze Dust" />
+  </preference>
+  <preference oreDictionary="dustBlackSteel" >
+    <itemStack modID="tfctech" itemName="item.Black Steel Dust" />
+  </preference>
+  <preference oreDictionary="dustBlueSteel" >
+    <itemStack modID="tfctech" itemName="item.Blue Steel Dust" />
+  </preference>
+  <preference oreDictionary="dustBrass" >
+    <itemStack modID="tfctech" itemName="item.Brass Dust" />
+  </preference>
+  <preference oreDictionary="dustIron" >
+    <itemStack modID="tfctech" itemName="item.Wrought Iron Dust" />
+  </preference>
+  <preference oreDictionary="dustPigIron" >
+    <itemStack modID="tfctech" itemName="item.Pig Iron Dust" />
+  </preference>
+  <preference oreDictionary="dustPlatinum" >
+    <itemStack modID="tfctech" itemName="item.Platinum Dust" />
+  </preference>
+  <preference oreDictionary="dustRedSteel" >
+    <itemStack modID="tfctech" itemName="item.Red Steel Dust" />
+  </preference>
+  <preference oreDictionary="dustRoseGold" >
+    <itemStack modID="tfctech" itemName="item.Rose Gold Dust" />
+  </preference>
+  <preference oreDictionary="dustCopper" >
+    <itemStack modID="tfctech" itemName="item.Copper Dust" />
+  </preference>
+  <preference oreDictionary="dustTin" >
+    <itemStack modID="tfctech" itemName="item.Tin Dust" />
+  </preference>
+  <preference oreDictionary="dustSilver" >
+    <itemStack modID="tfctech" itemName="item.Silver Dust" />
+  </preference>
+  <preference oreDictionary="dustSterlingSilver" >
+    <itemStack modID="tfctech" itemName="item.Sterling Silver Dust" />
+  </preference>
+  <preference oreDictionary="dustLead" >
+    <itemStack modID="tfctech" itemName="item.Lead Dust" />
+  </preference>
+  <preference oreDictionary="dustNickel" >
+    <itemStack modID="tfctech" itemName="item.Nickel Dust" />
+  </preference>
+  <preference oreDictionary="dustSulfur" >
+    <itemStack modID="tfctech" itemName="item.Powder" itemMeta="3" />
+  </preference>
+  <preference oreDictionary="dustBronze" >
+    <itemStack modID="tfctech" itemName="item.Bronze Dust" />
+  </preference>
+  <preference oreDictionary="dustZinc" >
+    <itemStack modID="tfctech" itemName="item.Zinc Dust" />
+  </preference>
+  <preference oreDictionary="dustRedAlloy" >
+    <itemStack modID="tfctech" itemName="item.Red Alloy Dust" />
+  </preference>
+  <preference oreDictionary="dustSteel" >
+    <itemStack modID="tfctech" itemName="item.Steel Dust" />
+  </preference>
+
+  <!-- Ingots -->
+  <preference oreDictionary="ingotAluminum" >
+    <itemStack modID="tfctech" itemName="item.Aluminum Ingot" />
+  </preference>
+  <preference oreDictionary="ingotConstantan" >
+    <itemStack modID="tfctech" itemName="item.Constantan Ingot"/>
+  </preference>
+  <preference oreDictionary="ingotGold" >
+    <itemStack modID="terrafirmacraft" itemName="item.Gold Ingot" />
+  </preference>
+  <preference oreDictionary="ingotElectrum" >
+    <itemStack modID="tfctech" itemName="item.Electrum Ingot" />
+  </preference>
+  <preference oreDictionary="ingotInvar" >
+    <itemStack modID="tfctech" itemName="item.Invar Ingot" />
+  </preference>
+  <preference oreDictionary="ingotBismuth" >
+    <itemStack modID="terrafirmacraft" itemName="item.Bismuth Ingot" />
+  </preference>
+  <preference oreDictionary="ingotBismuthBronze" >
+    <itemStack modID="terrafirmacraft" itemName="item.Bismuth Bronze Ingot" />
+  </preference>
+  <preference oreDictionary="ingotBlackBronze" >
+    <itemStack modID="terrafirmacraft" itemName="item.Black Bronze Ingot" />
+  </preference>
+  <preference oreDictionary="ingotBlackSteel" >
+    <itemStack modID="terrafirmacraft" itemName="item.Black Steel Ingot" />
+  </preference>
+  <preference oreDictionary="ingotBlueSteel" >
+    <itemStack modID="terrafirmacraft" itemName="item.Blue Steel Ingot" />
+  </preference>
+  <preference oreDictionary="ingotBrass" >
+    <itemStack modID="terrafirmacraft" itemName="item.Brass Ingot" />
+  </preference>
+  <preference oreDictionary="ingotIron" >
+    <itemStack modID="terrafirmacraft" itemName="item.Wrought Iron Ingot" />
+  </preference>
+  <preference oreDictionary="ingotPigIron" >
+    <itemStack modID="terrafirmacraft" itemName="item.Pig Iron Ingot" />
+  </preference>
+  <preference oreDictionary="ingotPlatinum" >
+    <itemStack modID="terrafirmacraft" itemName="item.Platinum Ingot" />
+  </preference>
+  <preference oreDictionary="ingotRedSteel" >
+    <itemStack modID="terrafirmacraft" itemName="item.Red Steel Ingot" />
+  </preference>
+  <preference oreDictionary="ingotRooseGold" >
+    <itemStack modID="terrafirmacraft" itemName="item.Rose Gold Ingot" />
+  </preference>
+  <preference oreDictionary="ingotCopper" >
+    <itemStack modID="terrafirmacraft" itemName="item.Copper Ingot" />
+  </preference>
+  <preference oreDictionary="ingotTin" >
+    <itemStack modID="terrafirmacraft" itemName="item.Tin Ingot" />
+  </preference>
+  <preference oreDictionary="ingotSilver" >
+    <itemStack modID="terrafirmacraft" itemName="item.Silver Ingot" />
+  </preference>
+  <preference oreDictionary="ingotSterlingSilver" >
+    <itemStack modID="terrafirmacraft" itemName="item.Sterling Silver Ingot" />
+  </preference>
+  <preference oreDictionary="ingotLead" >
+    <itemStack modID="terrafirmacraft" itemName="item.Lead Ingot" />
+  </preference>
+  <preference oreDictionary="ingotNickel" >
+    <itemStack modID="terrafirmacraft" itemName="item.Nickel Ingot" />
+  </preference>
+  <preference oreDictionary="ingotBronze" >
+    <itemStack modID="terrafirmacraft" itemName="item.Bronze Ingot" />
+  </preference>
+  <preference oreDictionary="ingotZinc" >
+    <itemStack modID="terrafirmacraft" itemName="item.Zinc Ingot" />
+  </preference>
+  <preference oreDictionary="ingotRedAlloy" >
+    <itemStack modID="tfctech" itemName="item.Red Alloy Ingot" />
+  </preference>
+  <preference oreDictionary="ingotSteel" >
+    <itemStack modID="terrafirmacraft" itemName="item.Steel Ingot" />
+  </preference>
+</OreDictionaryPreferences>

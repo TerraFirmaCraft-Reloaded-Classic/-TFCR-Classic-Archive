@@ -1,0 +1,80 @@
+<VatRecipes>
+  <recipeGroup name="EnderIO" > <!-- Required for EnderIO to function correctly. -->
+    <!-- Disabled recipes -->
+	<recipe name="Liquid Sunshine" />
+    <recipe name="Cloud Seed" />
+    <recipe name="Concentrated Cloud Seed" />
+	
+    <!-- Edited recipes -->
+    <recipe name="Nutrient Distilation" energyCost="10000" allowMissing="true" >
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemZombieBrain" slot="0" multiplier="2" />
+        <itemStack oreDictionary="itemSkull" slot="0" multiplier="2" />
+        <itemStack modID="minecraft" itemName="rotten_flesh" slot="0" multiplier="1.5" />
+		<itemStack modID="minecraft" itemName="bone" slot="0" multiplier="1.5" />
+<!--	<itemStack modID="terrafirmacraft" itemName="item.Chicken" slot="0" multiplier="4" />
+        <itemStack modID="terrafirmacraft" itemName="item.Beef" slot="0" multiplier="2" />
+        <itemStack modID="terrafirmacraft" itemName="item.Porkchop" slot="0" multiplier="2" />
+        <itemStack modID="terrafirmacraft" itemName="item.Sugar" slot="1" multiplier="2" />
+-->	    <itemStack modID="terrafirmacraft" itemName="Fungi" slot="1" itemMeta="0" multiplier="1.5" />
+        <itemStack modID="terrafirmacraft" itemName="Fungi" slot="1" itemMeta="1" multiplier="1.5" />
+        <itemStack modID="minecraft" itemName="nether_wart" slot="1" multiplier="1.5" />
+        <itemStack modID="minecraft" itemName="fermented_spider_eye" slot="1" multiplier="2" />
+        <fluidStack name="water" multiplier="0.25" />
+      </input>
+      <output>
+        <fluidStack name="nutrient_distillation" />
+      </output>
+    </recipe>
+    <recipe name="Hootch" energyCost="10000" >
+      <input>
+<!--	<itemStack modID="terrafirmacraft" itemName="item.Potato" slot="0" multiplier="4" />
+        <itemStack modID="terrafirmacraft" itemName="item.Red Apple" slot="0" multiplier="3.5" />
+		<itemStack modID="terrafirmacraft" itemName="item.Green Apple" slot="0" multiplier="3.5" />
+        <itemStack modID="terrafirmacraft" itemName="item.Maize Ear" slot="0" multiplier="3" />
+		<itemStack modID="terrafirmacraft" itemName="item.Wheat Whole" slot="0" multiplier="3" />
+		<itemStack modID="terrafirmacraft" itemName="item.Barley Whole" slot="0" multiplier="3" />
+		<itemStack modID="terrafirmacraft" itemName="item.Oat Whole" slot="0" multiplier="3" />
+		<itemStack modID="terrafirmacraft" itemName="item.Rye Whole" slot="0" multiplier="3" />
+		<itemStack modID="terrafirmacraft" itemName="item.Rice Whole" slot="0" multiplier="3" />
+-->		<itemStack modID="terrafirmacraft" itemName="item.Seeds Maize" slot="0" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Wheat" slot="0" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Barley" slot="0" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Oat" slot="0" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Rye" slot="0" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Rice" slot="0" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Maize" slot="1" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Wheat" slot="1" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Barley" slot="1" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Oat" slot="1" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Rye" slot="1" multiplier="4" />
+		<itemStack modID="terrafirmacraft" itemName="item.Seeds Rice" slot="1" multiplier="4" />
+<!--	<itemStack modID="terrafirmacraft" itemName="item.Sugar" slot="1" multiplier="10" />	-->
+        <fluidStack name="water" multiplier="0.5" />
+      </input>
+      <output>
+        <fluidStack name="hootch" />
+      </output>
+    </recipe>
+    <recipe name="Rocket Fuel" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="gunpowder" slot="0" multiplier="1" />
+        <itemStack modID="minecraft" itemName="redstone" slot="1" multiplier="1" />
+        <fluidStack name="hootch" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="rocket_fuel" />
+      </output>
+    </recipe>
+    <recipe name="Fire Water" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="blaze_powder" slot="0" multiplier="1" />
+        <itemStack modID="minecraft" itemName="redstone" slot="1" multiplier="1" />
+        <fluidStack name="hootch" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="fire_water" />
+      </output>
+    </recipe>
+  </recipeGroup>
+</VatRecipes>

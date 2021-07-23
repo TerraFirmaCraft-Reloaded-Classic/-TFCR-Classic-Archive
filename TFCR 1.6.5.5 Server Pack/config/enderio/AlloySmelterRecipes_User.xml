@@ -1,0 +1,636 @@
+<!--
+  Custom recipes that will not be over written by Ender IO are added here. Examples of recipes can be found in the
+  AlloySmelterRecipes_Core.xml and general format documentation in the SAGMillRecipes_Core/User.
+
+  As well as adding custom recipes to the operation of the Alloy Smelter, a vanilla furnace recipe can be controlled.
+  It can be disabled completely by simply adding this line:
+
+  <vanillaFurnaceRecipes enabled="false" />
+
+  It is also possible to selectively disable vanilla furnace recipes. The following example disables the smelting of iron
+  ingots, ender pearls, and any form of iron ore registered in the ore dictionary.
+
+  <vanillaFurnaceRecipes>
+
+	<exclude>
+      <itemStack modID="minecraft" itemName="iron_ingot" />
+      <itemStack modID="minecraft" itemName="ender_pearl" />
+      <itemStack oreDictionary="oreIron" />
+    </exclude>
+
+  </vanillaFurnaceRecipes>
+
+  Add this line to disable the creation of TE alloys using the Alloy Smelter.
+
+  <recipeGroup name="Thermal Expansion" enabled="false" />
+-->
+
+<AlloySmelterRecipes>
+  <!-- Disabled groups -->
+  <recipeGroup name="Thermal Expansion" enabled="false" />
+  <vanillaFurnaceRecipes enabled="false" />
+  
+  <!-- Edited groups -->
+  <recipeGroup name="EnderIO" >
+	<recipe name="Electrical Steel" energyCost="10000" >
+	  <input>
+		<itemStack oreDictionary="ingotSteel" />
+		<itemStack oreDictionary="dustCoal" />
+		<itemStack oreDictionary="itemSilicon" />
+	  </input>
+	  <output>
+		<itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="0" exp="0.5" />
+	  </output>
+	</recipe>
+	<recipe name="Energetic Alloy" energyCost="10000" >
+	  <input>
+		<itemStack modID="minecraft" itemName="redstone" />
+		<itemStack oreDictionary="ingotGold" />
+		<itemStack modID="minecraft" itemName="glowstone_dust" />
+	  </input>
+	  <output>
+		<itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="1" exp="0.7" />
+	  </output>
+	</recipe>
+	<recipe name="Conductive Iron" energyCost="10000" >
+	  <input>
+		<itemStack modID="minecraft" itemName="redstone" />
+		<itemStack oreDictionary="ingotWroughtIron" />
+	  </input>
+	  <output>
+		<itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="4" exp="0.5" />
+	  </output>
+	</recipe>
+	<recipe name="Pulsating Iron" energyCost="10000" >
+	  <input>
+		<itemStack oreDictionary="ingotWroughtIron" />
+		<itemStack modID="minecraft" itemName="ender_pearl" />
+	  </input>
+	  <output>
+		<itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="5" exp="0.7" />
+	  </output>
+	</recipe>
+	<recipe name="Dark Steel" energyCost="20000" >
+	  <input>
+		<itemStack oreDictionary="ingotSteel" />
+		<itemStack oreDictionary="dustCoal" />
+		<itemStack modID="minecraft" itemName="obsidian" />
+	  </input>
+	  <output>
+		<itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" exp="0.5" />
+	  </output>
+	</recipe>
+	<recipe name="Soularium" energyCost="10000" >
+	  <input>
+		<itemStack modID="minecraft" itemName="soul_sand" />
+		<itemStack oreDictionary="ingotGold" />
+	  </input>
+	  <output>
+		<itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="7" exp="0.7" />
+	  </output>
+	</recipe>
+  </recipeGroup>
+  
+  <!-- Added groups -->
+  <recipeGroup name="TfcCompat">
+	<recipe name="ConduitComposite" energyCost="2000" >
+      <input>
+        <itemStack oreDictionary="itemBinderComposite" />
+      </input>
+      <output>
+        <itemStack oreDictionary="itemConduitBinder" number="4" />
+      </output>
+    </recipe>
+	<recipe name="Fused TFC Quartz" energyCost="5000" >
+      <input>
+        <itemStack oreDictionary="gemQuartz" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Fused Glass" energyCost="2500" >
+      <input>
+        <itemStack oreDictionary="blockSand" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" exp="0.2" />
+      </output>
+    </recipe>
+    <recipe name="Enlightened Fused TFC Quartz" energyCost="5000" >
+      <input>
+        <itemStack oreDictionary="gemQuartz" number="4" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Enlightened Fused TFC Quartz 2" energyCost="5000" >
+      <input>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Enlightened Fused Glass" energyCost="2500" >
+      <input>
+        <itemStack oreDictionary="blockSand" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="3" exp="0.2" />
+      </output>
+    </recipe>
+    <recipe name="Enlightened Fused Glass 2" energyCost="2500" >
+      <input>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="3" exp="0.2" />
+      </output>
+    </recipe>
+    <recipe name="Fused TFC Quartz from Block" energyCost="5000" >
+      <input>
+        <itemStack modID="minecraft" itemName="quartz_block" number="1" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Enlightened Fused TFC Quartz from Block" energyCost="5000" >
+      <input>
+        <itemStack modID="minecraft" itemName="quartz_block" number="1" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Enlightened Fused TFC Quartz from Block 2" energyCost="5000" >
+      <input>
+        <itemStack modID="minecraft" itemName="quartz_block" number="1" />
+        <itemStack modID="minecraft" itemName="glowstone" number="1" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Enlightened Fused TFC Quartz from Block 3" energyCost="5000" >
+      <input>
+        <itemStack oreDictionary="gemQuartz" number="4" />
+        <itemStack modID="minecraft" itemName="glowstone" number="1" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Enlightened Fused TFC Quartz from Block 4" energyCost="5000" >
+      <input>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" />
+        <itemStack modID="minecraft" itemName="glowstone" number="1" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Dark Fused TFC Quartz" energyCost="5000" >
+      <input>
+        <itemStack oreDictionary="gemQuartz" number="4" />
+        <itemStack oreDictionary="dyeBlack" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="4" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Dark Fused TFC Quartz from Block" energyCost="5000" >
+      <input>
+        <itemStack modID="minecraft" itemName="quartz_block" number="1" />
+        <itemStack oreDictionary="dyeBlack" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="4" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Dark Fused TFC Quartz from Block 2" energyCost="5000" >
+      <input>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" />
+        <itemStack oreDictionary="dyeBlack" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="4" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Dark Fused Glass" energyCost="2500" >
+      <input>
+        <itemStack oreDictionary="blockSand" />
+        <itemStack oreDictionary="dyeBlack" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="5" exp="0.2" />
+      </output>
+    </recipe>
+    <recipe name="Dark Fused Glass 2" energyCost="2500" >
+      <input>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" />
+        <itemStack oreDictionary="dyeBlack" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="5" exp="0.2" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+  <recipeGroup name="AlloyingIngots">
+    <recipe name="Bronze" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="ingotCopper" number="3" />
+        <itemStack oreDictionary="ingotTin" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBronze" number="4" />
+      </output>
+    </recipe>
+	<recipe name="BismuthBronze" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="ingotCopper" number="2" />
+        <itemStack oreDictionary="ingotZinc" />
+		<itemStack oreDictionary="ingotBismuth" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBismuthBronze" number="4" />
+      </output>
+    </recipe>
+	<recipe name="BlackBronze" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="ingotCopper" number="2" />
+        <itemStack oreDictionary="ingotSilver" />
+		<itemStack oreDictionary="ingotGold" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBlackBronze" number="4" />
+      </output>
+    </recipe>
+	<recipe name="Brass" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="ingotCopper" number="3" />
+        <itemStack oreDictionary="ingotZinc" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBrass" number="4" />
+      </output>
+    </recipe>
+	<recipe name="RoseGold" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="ingotCopper" />
+        <itemStack oreDictionary="ingotgold" number="3" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotRoseGoold" number="4" />
+      </output>
+    </recipe>
+	<recipe name="SterlingSilver" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="ingotCopper" />
+        <itemStack oreDictionary="ingotSilver" number="3" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotSterlingSilver" number="4" />
+      </output>
+    </recipe>
+	<recipe name="RedAlloy" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="ingotPlatinum" />
+        <itemStack oreDictionary="dustRedstone" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotRedAlloy" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+  <recipeGroup name="AlloyingDusts">
+	<recipe name="Bronze" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustCopper" number="3" />
+        <itemStack oreDictionary="dustTin" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBronze" number="4" />
+      </output>
+    </recipe>
+	<recipe name="BismuthBronze" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustCopper" number="2" />
+        <itemStack oreDictionary="dustZinc" />
+		<itemStack oreDictionary="dustBismuth" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBismuthBronze" number="4" />
+      </output>
+    </recipe>
+	<recipe name="BlackBronze" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustCopper" number="2" />
+        <itemStack oreDictionary="dustSilver" />
+		<itemStack oreDictionary="dustGold" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBlackBronze" number="4" />
+      </output>
+    </recipe>
+	<recipe name="Brass" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustCopper" number="3" />
+        <itemStack oreDictionary="dustZinc" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBrass" number="4" />
+      </output>
+    </recipe>
+	<recipe name="RoseGold" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustCopper" />
+        <itemStack oreDictionary="dustgold" number="3" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotRoseGoold" number="4" />
+      </output>
+    </recipe>
+	<recipe name="SterlingSilver" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustCopper" />
+        <itemStack oreDictionary="dustSilver" number="3" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotSterlingSilver" number="4" />
+      </output>
+    </recipe>
+	<recipe name="RedAlloy" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustPlatinum" />
+        <itemStack oreDictionary="dustRedstone" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotSterlingSilver" />
+      </output>
+    </recipe>
+	<recipe name="WeakSteel" energyCost="204800" >
+      <input>
+        <itemStack oreDictionary="ingotSteel" number="2" />
+        <itemStack oreDictionary="ingotNickel" />
+		<itemStack oreDictionary="ingotBlackBronze" />
+      </input>
+      <output>
+        <itemStack modID="terrafirmacraft" itemName="item.Weak Steel Ingot" number="4" />
+      </output>
+    </recipe>
+	<recipe name="Steel" energyCost="250000" >
+      <input>
+        <itemStack oreDictionary="ingotIron" />
+        <itemStack oreDictionary="dustFlux" />
+		<itemStack oreDictionary="dustCoal" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotPigIron" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+  <recipeGroup name="WeldingIngots">
+	<recipe name="HCBlueSteel" energyCost="40000" >
+      <input>
+        <itemStack modID="terrafirmacraft" itemName="item.Weak Blue Steel Ingot" />
+        <itemStack oreDictionary="dustFlux" />
+		<itemStack oreDictionary="ingotBlackSteel" />
+      </input>
+      <output>
+        <itemStack modID="terrafirmacraft" itemName="item.HC Blue Steel Ingot" />
+      </output>
+    </recipe>
+	<recipe name="HCRedSteel" energyCost="40000" >
+      <input>
+        <itemStack modID="terrafirmacraft" itemName="item.Weak Red Steel Ingot" />
+        <itemStack oreDictionary="dustFlux" />
+		<itemStack oreDictionary="ingotBlackSteel" />
+      </input>
+      <output>
+        <itemStack modID="terrafirmacraft" itemName="item.HC Red Steel Ingot" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+  <recipeGroup name="SmeltingDusts">
+    <recipe name="BismuthIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustBismuth" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBismuth" />
+      </output>
+    </recipe>
+	<recipe name="BisBronzeIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustBismuthBronze" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBismuthBronze" />
+      </output>
+    </recipe>
+	<recipe name="BlackBronzeIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustBlackBronze" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBlackBronze" />
+      </output>
+    </recipe>
+	<recipe name="SteelIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustSteel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotSteel" />
+      </output>
+    </recipe>
+	<recipe name="BlackSteelIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustBlackSteel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBlackSteel" />
+      </output>
+    </recipe>
+    <recipe name="BlueSteelIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustBlueSteel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBlueSteel" />
+      </output>
+    </recipe>
+	<recipe name="RedSteelIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustRedSteel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotRedSteel" />
+      </output>
+    </recipe>
+	<recipe name="PigIronIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustPigIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotPigIron" />
+      </output>
+    </recipe>
+	<recipe name="RoseGoldIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustRoseGold" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotRoseGold" />
+      </output>
+    </recipe>
+	<recipe name="SterlingSilverIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustSterlingSilver" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotSterlingSilver" />
+      </output>
+    </recipe>
+	<recipe name="AluminumIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustAluminum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotAluminum" />
+      </output>
+    </recipe>
+	<recipe name="ConstantanIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustConstantan" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotConstantan" />
+      </output>
+    </recipe>
+	<recipe name="ElectrumIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustElectrum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotElectrum" />
+      </output>
+    </recipe>
+	<recipe name="InvarIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustInvar" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotInvar" />
+      </output>
+    </recipe>
+	<recipe name="IronIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustWroughtIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotWroughtIron" />
+      </output>
+    </recipe>
+	<recipe name="ZincIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustZinc" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotZinc" />
+      </output>
+    </recipe>
+	<recipe name="BrassIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustBrass" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBrass" />
+      </output>
+    </recipe>
+	<recipe name="BronzeIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustBronze" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotBronze" />
+      </output>
+    </recipe>
+	<recipe name="CopperIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustCopper" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotCopper" />
+      </output>
+    </recipe>
+	<recipe name="GoldIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustGold" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotGold" />
+      </output>
+    </recipe>
+	<recipe name="LeadIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustLead" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotLead" />
+      </output>
+    </recipe>
+	<recipe name="NickelIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustNickel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotNickel" />
+      </output>
+    </recipe>
+	<recipe name="PlatinumIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustPlatinum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotPlatinum" />
+      </output>
+    </recipe>
+	<recipe name="SilverIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustSilver" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotSilver" />
+      </output>
+    </recipe>
+	<recipe name="TinIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustTin" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotTin" />
+      </output>
+    </recipe>
+	<recipe name="RedAlloyIngot" energyCost="4000" >
+      <input>
+        <itemStack oreDictionary="dustRedAlloy" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotRedAlloy" />
+      </output>
+    </recipe>
+  </recipeGroup>
+</AlloySmelterRecipes>

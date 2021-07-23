@@ -1,0 +1,16 @@
+{
+  "_name": "pheasantTFC",
+  "drops": [
+            {
+              "function": "remove",
+              "id": "minecraft:feather"
+			},
+            {
+              "function": "add",
+              "id": "customitems:pheasant_feather",
+              "count": "1~10"
+			}
+	],
+  "pre_stats": [],
+  "stats": []
+}

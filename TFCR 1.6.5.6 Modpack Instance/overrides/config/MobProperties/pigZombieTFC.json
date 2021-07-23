@@ -1,0 +1,24 @@
+{
+  "_name": "pigZombieTFC",
+  "drops": [
+            {
+              "function": "remove",
+              "id": "minecraft:gold_nugget"
+			},
+			{
+              "function": "remove",
+              "id": "minecraft:gold_ingot"
+			},
+            {
+              "function": "remove",
+              "id": "minecraft:golden_sword"
+			},
+            {
+              "function": "add",
+              "id": "terrafirmacraft:item.Gold Ingot",
+              "count": 0.1
+			}
+	],
+  "pre_stats": [],
+  "stats": []
+}

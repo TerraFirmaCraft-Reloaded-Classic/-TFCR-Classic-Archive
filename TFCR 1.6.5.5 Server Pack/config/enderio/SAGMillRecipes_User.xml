@@ -1,0 +1,375 @@
+<!--
+  Custom recipes that will not be over written by Ender IO are added here.
+
+  To change an existing recipe, just add the recipe to this file using the same recipe group and recipe name as found in
+  the core file.
+
+  Adding new Recipes:
+  For more details of how to add a new recipe please see the documentation at the top of SAGMillRecipes_Core.xml.
+
+  Adding a new recipe to a new group:
+
+  <recipeGroup name="CrazyPantsGroup" >
+    <recipe name="SolarToGlass" energyCost="120" >
+        <input>
+          <itemStack modID="EnderIO" itemName="enderIO:blockSolarPanel" />
+        </input>
+        <output>
+          <itemStack modID="minecraft" itemName="glass" />
+        </output>
+      </recipe>
+  </recipeGroup>
+
+  Removing Recipes:
+  To disable all recipes within a group, in this example Forestry, include the following in this file:
+
+  <recipeGroup name="Forestry" enabled="false" />
+
+  Disable all recipes in the group 'Vanilla':
+
+  <recipeGroup name="Vanilla" enabled="false" />
+
+  To disable individual recipes, simply provide an invalid recipe for them:
+
+  <recipeGroup name="Applied Energistics" >
+    <recipe name="CertusQuartzOre" />
+  </recipeGroup>
+
+  Disable the glass recipes in the group 'Vanilla':
+
+  <recipeGroup name="Vanilla" >
+    <recipe name="Glass" />
+  </recipeGroup>
+
+  Modifying Recipes:
+  Modify a core recipe definition, in this case, make glass give diamonds:
+
+  <recipeGroup name="Vanilla" >
+    <recipe name="Glass" energyCost="120" >
+        <input>
+          <itemStack modID="minecraft" itemName="glass" />
+        </input>
+        <output>
+          <itemStack modID="minecraft" itemName="diamond" />
+        </output>
+      </recipe>
+  </recipeGroup>
+
+  Add this block to change the default TE obsidian -> dust recipe to the railcraft recipe.
+
+  <recipeGroup name="Thermal Expansion" >
+    <recipe name="Obsidian" energyCost="400" >
+      <input>
+        <itemStack modID="minecraft" itemName="obsidian" />
+      </input>
+      <output>
+        <itemStack modID="Railcraft" itemName="tile.railcraft.cube" itemMeta="4" number="1" />
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.15" />
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.025" />
+      </output>
+    </recipe>
+  </recipeGroup>
+
+  Grinding Balls:
+  Adding a new grinding ball:
+
+  <grindingBalls>
+    <grindingBall id="Diamond" grindingMultiplier="1.5" chanceMultiplier="2" powerMultiplier="0.5" durationRF="50000" >
+      <itemStack modID="minecraft" itemName="diamond" />
+    </grindingBall>
+  </grindingBalls>
+
+  Removing an existing grinding ball:
+
+  <grindingBalls>
+    <grindingBall id="Flint" remove="true" />
+  </grindingBalls>
+
+  Modifying the excludes list: (removing glowstone, adding sand)
+
+  <grindingBalls>
+    <excludes>
+      <itemStack modID="minecraft" itemName="glowstone" remove="true" />
+      <itemStack modID="minecraft" itemName="sand" />
+    </excludes>
+  </grindingBalls>
+
+-->
+
+<SAGMillRecipes>
+  <!-- Disabled groups -->
+  <recipeGroup name="Thermal Expansion/Foundation" enabled="false" />
+  <recipeGroup name="Thermal Expansion" enabled="false" />
+  
+  <!-- Edited groups -->
+  <recipeGroup name="EnderIO" >
+	<!-- Disabled recipes -->
+	<recipe name="CoalOre" />
+  </recipeGroup>
+  
+  <recipeGroup name="Vanilla" >
+	<!-- Edited recipes -->
+	<recipe name="Bone" energyCost="2400" >
+      <input>
+        <itemStack modID="minecraft" itemName="bone" />
+      </input>
+      <output>
+        <itemStack modID="terrafirmacraft" itemName="item.dyePowder" itemMeta="15" number="6" />
+        <itemStack modID="terrafirmacraft" itemName="item.dyePowder" itemMeta="15" number="2" chance="0.1" />
+      </output>
+    </recipe>
+	<recipe name="Wheat" energyCost="800" >
+      <input>
+        <itemStack modID="minecraft" itemName="wheat" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="wheat_seeds" chance="0.2" />
+      </output>
+    </recipe>
+    <recipe name="Charcoal" energyCost="2400" >
+      <input>
+        <itemStack modID="minecraft" itemName="coal" itemMeta="1" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustCharcoal" number="1" />
+      </output>
+    </recipe>
+	<recipe name="RedstoneOre" energyCost="3000" >
+      <input>
+        <itemStack oreDictionary="oreRedstone" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="redstone" number="8" />
+        <itemStack modID="minecraft" itemName="redstone" number="4" chance="0.5" />
+        <itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="0" chance="0.8" />
+		<itemStack oreDictionary="quicksilver" number="5" chance="0.8"/>
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+  <recipeGroup name="Big Reactors" >
+    <recipe name="YelloriteOre" energyCost="3600" >
+      <input>
+        <itemStack oreDictionary="oreUranium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustYellorium" number="2" />
+        <itemStack oreDictionary="dustCyanite" number="1" chance="0.05" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+  <recipeGroup name="Common Ores/Ingots/Blocks" >
+	<recipe name="BismuthIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotBismuth" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustBismuth" />
+      </output>
+    </recipe>
+	<recipe name="BisBronzeIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotBismuthBronze" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustBismuthBronze" />
+      </output>
+    </recipe>
+	<recipe name="BlackBronzeIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotBlackBronze" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustBlackBronze" />
+      </output>
+    </recipe>
+	<recipe name="SteelIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotSteel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustSteel" />
+      </output>
+    </recipe>
+	<recipe name="BlackSteelIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotBlackSteel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustBlackSteel" />
+      </output>
+    </recipe>
+    <recipe name="BlueSteelIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotBlueSteel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustBlueSteel" />
+      </output>
+    </recipe>
+	<recipe name="RedSteelIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotRedSteel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustRedSteel" />
+      </output>
+    </recipe>
+	<recipe name="PigIronIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotPigIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustPigIron" />
+      </output>
+    </recipe>
+	<recipe name="RoseGoldIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotRoseGold" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustRoseGold" />
+      </output>
+    </recipe>
+	<recipe name="SterlingSilverIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotSterlingSilver" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustSterlingSilver" />
+      </output>
+    </recipe>
+	<recipe name="AluminumIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotAluminum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustAluminum" />
+      </output>
+    </recipe>
+	<recipe name="ConstantanIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotConstantan" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustConstantan" />
+      </output>
+    </recipe>
+	<recipe name="ElectrumIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotElectrum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustElectrum" />
+      </output>
+    </recipe>
+	<recipe name="InvarIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotInvar" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustInvar" />
+      </output>
+    </recipe>
+	<recipe name="IronIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotWroughtIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustWroughtIron" />
+      </output>
+    </recipe>
+	<recipe name="ZincIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotZinc" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustZinc" />
+      </output>
+    </recipe>
+	<recipe name="RedAlloyIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotRedAlloy" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustRedAlloy" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+  <!-- Added groups -->
+  <recipeGroup name="TfcCompat">
+    <recipe name="SiliconTFC" energyCost="720" >
+      <input>
+        <itemStack oreDictionary="blockSand" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemMaterial" number="1" itemMeta="0" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="CelluloseTFC" energyCost="720" >
+      <input>
+        <itemStack modID="terrafirmacraft" itemName="item.Reeds" />
+      </input>
+      <output>
+        <itemStack modID="tfcprimitivetech" itemName="itemCelluloseFibers" number="2" />
+      </output>
+    </recipe>
+	<recipe name="CoalJet" energyCost="2400" >
+      <input>
+        <itemStack modID="terrafirmacraft" itemName="item.Ore" itemMeta="24" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustCoal" number="1" />
+        <itemStack oreDictionary="dustFlux" number="1" chance="0.1" />
+      </output>
+    </recipe>
+	<recipe name="CoalAnthracite" energyCost="2400" >
+      <input>
+        <itemStack modID="terrafirmacraft" itemName="item.coal" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustCoal" number="1" />
+		<itemStack oreDictionary="dustCoal" number="1" chance="0.50" />
+		<itemStack oreDictionary="dustCoal" number="1" chance="0.25"/>
+        <itemStack oreDictionary="dustSulfur" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="CoalBituminous" energyCost="2400" >
+      <input>
+        <itemStack modID="terrafirmacraft" itemName="item.Ore" itemMeta="14" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustCoal" number="1" />
+        <itemStack oreDictionary="dustCoal" number="1" chance="0.25" />
+        <itemStack oreDictionary="dustSulfur" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="CoalLignite" energyCost="2400" >
+      <input>
+        <itemStack modID="terrafirmacraft" itemName="item.Ore" itemMeta="15" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustCoal" number="1" />
+        <itemStack oreDictionary="dustSulfur" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Graphite" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="oreGraphite" />
+      </input>
+      <output>
+        <itemStack modID="terrafirmacraft" itemName="item.Powder" itemMeta="2" number="4" />
+      </output>
+    </recipe>
+	<recipe name="Kaolinite" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="oreKaolinite" />
+      </input>
+      <output>
+        <itemStack modID="terrafirmacraft" itemName="item.Powder" itemMeta="1" number="4" />
+      </output>
+    </recipe>
+  </recipeGroup>
+</SAGMillRecipes>

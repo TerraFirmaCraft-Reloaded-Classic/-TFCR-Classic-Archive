@@ -1,0 +1,51 @@
+{
+    "changeBlocks": [
+        {
+            "name": "minecraft:chest",
+            "maxStackSize": 4,
+            "stepSound": "stone",
+            "harvestLevel": 1,
+            "toolClass": "pickaxe",
+			"resistance": 30,
+			"hardness": 4
+        },
+        {
+            "name": "minecraft:trapped_chest",
+            "maxStackSize": 4,
+            "stepSound": "stone",
+            "harvestLevel": 1,
+            "toolClass": "pickaxe",
+			"resistance": 30,
+			"hardness": 4
+        }
+    ]
+}
+
+{
+	"blocksDrop": [
+		{
+			"id": "minecraft:chest",
+			"overrides": true,
+			"drops": [
+				{
+					"id":"terrafirmacraft:item.LooseRock",
+					"min":0,
+					"max":1,
+					"chance":0
+				}
+			]
+		},
+		{
+			"id": "minecraft:trapped_chest",
+			"overrides": true,
+			"drops": [
+				{
+					"id":"terrafirmacraft:item.LooseRock",
+					"min":0,
+					"max":1,
+					"chance":0
+				}
+			]
+		}
+	]
+}

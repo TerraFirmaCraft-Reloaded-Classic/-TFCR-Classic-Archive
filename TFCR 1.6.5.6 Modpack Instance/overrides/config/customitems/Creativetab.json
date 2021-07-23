@@ -1,0 +1,40 @@
+{
+	"creativeTabs":[
+		{
+			"tabLabel":"Therighthon's TFC addon",
+			"iconItem":"terrafirmacraft:item.ItemStoneBrick"                
+		},
+		{
+			"tabLabel":"Material Expansion",
+			"iconItem":"customitems:square_framed_cross"
+		},
+		{
+			"tabLabel":"Brick Expansion",
+			"iconItem":"customitems:brick_bond_dark_left"
+		},
+		{
+			"tabLabel":"Roof Expansion",
+			"iconItem":"customitems:terracotta_stair_tiles"
+		},
+		{
+			"tabLabel":"Wood Expansion",
+			"iconItem":"customitems:full_eucalyptus_log"
+		},
+		{
+			"tabLabel":"Stone Expansion",
+			"iconItem":"terrafirmacraft:StoneMM:5"
+		},
+		{
+			"tabLabel":"Miscellaneous Things",
+			"iconItem":"customitems:golden_wand"
+		},
+		{
+			"tabLabel":"Legacy Armor",
+			"iconItem":"customthings:rosegoldHelm"
+		},
+		{
+			"tabLabel":"TFC Metals",
+			"iconItem":"customitems:block_of_rose_gold"
+		}
+	]
+}

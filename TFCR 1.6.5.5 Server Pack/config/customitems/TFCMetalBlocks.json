@@ -1,0 +1,160 @@
+
+{
+    "blocks":
+    [		
+        {
+            "name": "Block of Red Steel",              
+            "material": "iron", 
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockRedSteel",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Blue Steel",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockBlueSteel",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Black Steel",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockBlackSteel",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Black Bronze",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockBlackBronze",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Bismuth Bronze",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockBismuthBronze",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Zinc",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockZinc",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Sterling Silver",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockSterlingSilver",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Rose Gold",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockRoseGold",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Platinum",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockPlatinum",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Pig Iron",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockPigIron",
+	    "toolClass":"pickaxe"            
+
+        },
+
+        {
+            "name": "Block of Bismuth",              
+            "material": "iron",  
+            "stepSound":"metal", 
+	    "maxStackSize": 8,                  
+            "hardness": 6,
+		"creativeTab":"TFC Metals",
+            "resistance": 40,
+            "harvestLevel": 1,
+	    "textureName": "blockBismuth",
+	    "toolClass":"pickaxe"            
+
+        }
+       
+    ]
+}

@@ -1,0 +1,124 @@
+{  
+	"oreGen":[
+		{  
+			"blockToSpawn": "AgriCraft:cropCotton:3",
+			"blockToReplace": "terrafirmacraft:TallGrass:0",
+			"dimensionId": 0,
+			"minVeinSize": 80,
+			"maxVeinSize": 100,
+			"chancesToSpawn": 2000,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "AgriCraft:cropCotton:3",
+			"blockToReplace": "terrafirmacraft:TallGrass:1",
+			"dimensionId": 0,
+			"minVeinSize": 80,
+			"maxVeinSize": 100,
+			"chancesToSpawn": 2000,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "AgriCraft:cropCotton:3",
+			"blockToReplace": "terrafirmacraft:TallGrass:2",
+			"dimensionId": 0,
+			"minVeinSize": 80,
+			"maxVeinSize": 100,
+			"chancesToSpawn": 2000,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "AgriCraft:cropAmaranth:3",
+			"blockToReplace": "terrafirmacraft:TallGrass:0",
+			"dimensionId": 0,
+			"minVeinSize": 80,
+			"maxVeinSize": 100,
+			"chancesToSpawn": 2000,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "AgriCraft:cropAmaranth:3",
+			"blockToReplace": "terrafirmacraft:TallGrass:1",
+			"dimensionId": 0,
+			"minVeinSize": 80,
+			"maxVeinSize": 100,
+			"chancesToSpawn": 2000,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "AgriCraft:cropAmaranth:3",
+			"blockToReplace": "terrafirmacraft:TallGrass:2",
+			"dimensionId": 0,
+			"minVeinSize": 80,
+			"maxVeinSize": 100,
+			"chancesToSpawn": 2000,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "AgriCraft:cropFlax:3",
+			"blockToReplace": "terrafirmacraft:TallGrass:0",
+			"dimensionId": 0,
+			"minVeinSize": 80,
+			"maxVeinSize": 100,
+			"chancesToSpawn": 2000,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "AgriCraft:cropFlax:3",
+			"blockToReplace": "terrafirmacraft:TallGrass:1",
+			"dimensionId": 0,
+			"minVeinSize": 80,
+			"maxVeinSize": 100,
+			"chancesToSpawn": 2000,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "AgriCraft:cropFlax:3",
+			"blockToReplace": "terrafirmacraft:TallGrass:2",
+			"dimensionId": 0,
+			"minVeinSize": 80,
+			"maxVeinSize": 100,
+			"chancesToSpawn": 2000,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "customitems:beehive",
+			"blockToReplace": "terrafirmacraft:TallGrass:0",
+			"dimensionId": 0,
+			"minVeinSize": 1,
+			"maxVeinSize": 10,
+			"chancesToSpawn": 70,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "customitems:beehive",
+			"blockToReplace": "terrafirmacraft:TallGrass:1",
+			"dimensionId": 0,
+			"minVeinSize": 1,
+			"maxVeinSize": 10,
+			"chancesToSpawn": 70,
+			"minY": 143,
+			"maxY": 255
+		},
+		{  
+			"blockToSpawn": "customitems:beehive",
+			"blockToReplace": "terrafirmacraft:TallGrass:2",
+			"dimensionId": 0,
+			"minVeinSize": 1,
+			"maxVeinSize": 10,
+			"chancesToSpawn": 70,
+			"minY": 143,
+			"maxY": 255
+		}
+    ]
+}

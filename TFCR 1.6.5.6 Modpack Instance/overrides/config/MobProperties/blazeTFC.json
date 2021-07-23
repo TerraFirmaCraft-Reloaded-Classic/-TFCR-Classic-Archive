@@ -1,0 +1,15 @@
+{
+  "_name": "blazeTFC",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [
+    {
+    "_comment": "increase the blaze's max health",
+    "function": "modifier",
+    "attribute": "generic.maxHealth",
+    "value": 2000,
+	"override": true,
+    "operator": 1
+    }
+  ]
+}

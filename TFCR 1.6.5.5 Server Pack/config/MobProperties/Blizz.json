@@ -1,0 +1,22 @@
+{
+  "_name": "Blizz",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [
+    {
+    "_comment": "increase the blizz' attack strength",
+    "function": "modifier",
+    "attribute": "generic.attackDamage",
+    "value": 10~100,
+    "override": true
+    },
+    {
+    "_comment": "increase the blizz' max health",
+    "function": "modifier",
+    "attribute": "generic.maxHealth",
+    "value": 2000,
+	"override": true,
+    "operator": 1
+    }
+  ]
+}

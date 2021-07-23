@@ -1,0 +1,28 @@
+{
+  "_name": "Silverfish",
+  "drops": [
+            {
+              "function": "add",
+              "id": "ghast_tear",
+              "count": 0.70
+        }
+	],
+  "pre_stats": [],
+  "stats": [
+    {
+    "_comment": "increase the mob's attack strength",
+    "function": "modifier",
+    "attribute": "generic.attackDamage",
+    "value": "20~60",
+    "override": true
+    },
+    {
+    "_comment": "increase the mob's max health",
+    "function": "modifier",
+    "attribute": "generic.maxHealth",
+    "value": 50,
+	"override": true,
+    "operator": 1
+    }
+	]
+}

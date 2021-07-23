@@ -1,0 +1,360 @@
+{
+    "items":
+    [
+        {
+            "name":"Jet Brick",
+            "textureName":"JetBrick",
+            "creativeTab":"Therighthon's TFC addon"
+        },
+        {
+            "name":"Serpentine Brick",
+            "textureName":"SerpentineBrick",
+            "creativeTab":"Therighthon's TFC addon"
+        },
+        {
+            "name":"Wood Bark",
+            "textureName":"Bark2",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Bark Fibre",
+            "textureName":"BarkFibre",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Bark Rope",
+            "textureName":"BarkRope",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Blank Vinyl",
+            "textureName":"Blank Vinyl",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Ulexite Mineral",
+            "textureName":"Ulexite",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Spodumene Chunk",
+            "textureName":"Spodumene",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Cherry Lumber",
+            "textureName":"CherryPlank",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Ebony Lumber",
+            "textureName":"EbonyPlank",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Eucalyptus Lumber",
+            "textureName":"EucalyptusPlank",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Jacaranda Lumber",
+            "textureName":"JacarandaPlank",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Mahogany Lumber",
+            "textureName":"MahoganyPlank",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Redwood Lumber",
+            "textureName":"RedwoodPlank",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Juniper Lumber",
+            "textureName":"JuniperPlank",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Rowan Lumber",
+            "textureName":"RowanPlank",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Hagberry Lumber",
+            "textureName":"HagberryPlank",
+            "creativeTab":"Wood Expansion"
+        },
+        {
+            "name":"Glowstone Shard",
+            "textureName":"GlowstoneShard",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Pheasant Feather",
+            "textureName":"PheasantFeather",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Black Feather",
+            "textureName":"RoosterFeather",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Clay Calculation Press",
+            "textureName":"Clay CalcProcessorPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Clay Engineering Press",
+            "textureName":"Clay EngProcessorPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Clay Logic Press",
+            "textureName":"Clay LogicProcessorPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Clay Name Press",
+            "textureName":"Clay NamePress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Clay Silicon Press",
+            "textureName":"Clay SiliconPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Ceramic Calculation Press",
+            "textureName":"Ceramic CalcProcessorPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+		{
+            "name":"Ceramic Engineering Press",
+            "textureName":"Ceramic EngProcessorPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Ceramic Logic Press",
+            "textureName":"Ceramic LogicProcessorPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Ceramic Name Press",
+            "textureName":"Ceramic NamePress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Ceramic Silicon Press",
+            "textureName":"Ceramic SiliconPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Calculation Press Cast",
+            "textureName":"Cast CalcProcessorPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Engineering Press Cast",
+            "textureName":"Cast EngProcessorPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Logic Press Cast",
+            "textureName":"Cast LogicProcessorPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Name Press Cast",
+            "textureName":"Cast NamePress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Silicon Press Cast",
+            "textureName":"Cast SiliconPress",
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name":"Unfinished Bismuth Helmet",
+            "textureName":"bismuthHelm",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Bismuth Chestplate",
+            "textureName":"bismuthChest",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Bismuth Greaves",
+            "textureName":"bismuthLegs",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Bismuth Boots",
+            "textureName":"bismuthBoots",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Rose Gold Helmet",
+            "textureName":"rosegoldHelm",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Rose Gold Chestplate",
+            "textureName":"rosegoldChest",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Rose Gold Greaves",
+            "textureName":"rosegoldLegs",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Rose Gold Boots",
+            "textureName":"rosegoldBoots",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Tin Helmet",
+            "textureName":"tinHelm",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Tin Chestplate",
+            "textureName":"tinChest",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Tin Greaves",
+            "textureName":"tinLegs",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Tin Boots",
+            "textureName":"tinBoots",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Zinc Helmet",
+            "textureName":"zincHelm",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Zinc Chestplate",
+            "textureName":"zincChest",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Zinc Greaves",
+            "textureName":"zincLegs",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        },
+        {
+            "name":"Unfinished Zinc Boots",
+            "textureName":"zincBoots",
+			"maxStackSize":1,
+            "creativeTab":"Legacy Armor"
+        }
+	],
+    "changeArmorMaxStack": [
+        {
+            "name": "customthings:bismuthHelm",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:bismuthChest",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:bismuthLegs",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:bismuthBoots",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:rosegoldHelm",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:rosegoldChest",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:rosegoldLegs",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:rosegoldBoots",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:tinHelm",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:tinChest",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:tinLegs",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:tinBoots",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:zincHelm",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:zincChest",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:zincLegs",
+			"maxStackSize":1
+        },
+        {
+            "name": "customthings:zincBoots",
+			"maxStackSize":1
+        }
+    ],
+    "hoes": [
+        {
+            "name": "Silver Wand",
+            "textureName": "wandsilver",
+            "maxUses": -1,
+            "efficiencyOnProperMaterial": 1,
+            "enchantability": 0,
+            "creativeTab":"Miscellaneous Things"
+        },
+        {
+            "name": "Golden Wand",
+            "textureName": "wandgolden",
+            "maxUses": -1,
+            "efficiencyOnProperMaterial": 1,
+            "enchantability": 0,
+            "creativeTab":"Miscellaneous Things"
+        }
+    ]
+}

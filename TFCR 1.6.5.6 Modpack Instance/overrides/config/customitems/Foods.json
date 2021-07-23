@@ -1,0 +1,33 @@
+{
+    "changeFoods":
+		[
+		{
+			"name": "psychedelicraft:hashMuffin",
+            "alwaysEdible": "true"
+        },
+		{
+			"name": "minecraft:chicken",
+            "alwaysEdible": "true"
+        },
+		{
+			"name": "minecraft:cooked_chicken",
+            "alwaysEdible": "true"
+        },
+		{
+			"name": "minecraft:cookie",
+            "alwaysEdible": "true"
+        },
+		{
+			"name": "minecraft:golden_apple",
+            "alwaysEdible": "true"
+        },
+		{
+			"name": "minecraft:golden_apple:1",
+            "alwaysEdible": "true"
+        },
+		{
+			"name": "Thaumcraft:ItemZombieBrain",
+            "alwaysEdible": "true"
+        }
+    ]
+}

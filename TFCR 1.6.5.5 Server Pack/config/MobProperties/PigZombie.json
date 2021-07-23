@@ -1,0 +1,40 @@
+{
+  "_name": "PigZombie",
+  "drops": [
+            {
+              "function": "remove",
+              "id": "minecraft:gold_nugget"
+			},
+			{
+              "function": "remove",
+              "id": "minecraft:gold_ingot"
+			},
+            {
+              "function": "remove",
+              "id": "minecraft:golden_sword"
+			},
+            {
+              "function": "add",
+              "id": "terrafirmacraft:item.Gold Ingot",
+              "count": 0.1
+			}
+	],
+  "pre_stats": [],
+  "stats": [
+    {
+    "_comment": "increase the mob's attack strength",
+    "function": "modifier",
+    "attribute": "generic.attackDamage",
+    "value": "60~200",
+    "override": true
+    },
+    {
+    "_comment": "increase the mob's max health",
+    "function": "modifier",
+    "attribute": "generic.maxHealth",
+    "value": 4000,
+	"override": true,
+    "operator": 1
+    }
+  ]
+}
